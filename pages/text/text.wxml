@@ -1,0 +1,38 @@
+<!--pages/text/text.wxml-->
+<view>
+<!-- ctrl+/注释，text文本标签，实现手机号长按选中-->
+  实现手机号长按选中：
+   <text user-select="true" selectable>
+   12345678993
+   </text>
+   <!-- richtext富文本标签，可以解析标签 -->
+   <rich-text nodes="<h1 style='color:red'>新闻标题</h1>">
+</rich-text>
+
+<!-- 按钮组件 -->
+<button >普通按钮</button>
+<button  type="primary">主色调</button>
+<button  type="warn">警告按钮</button>
+<view>小按钮</view>
+<button size="mini">普通按钮</button>
+<button type="primary" size="mini">主色调</button>
+<button type="warn" size="mini">警告按钮</button>
+<view>镂空按钮</view>
+<button size="mini" plain>普通按钮</button>
+<button type="primary" size="mini" plain>主色调</button>
+<button type="warn" size="mini" plain>警告按钮</button>
+</view>
+<view>
+<!-- image图片组建 -->
+<image src="https://img.zcool.cn/community/018ec5577e00480000012e7e91da55.gif" mode="aspectFit"/>
+<image src="/image/mp01.jpg" mode="widthFix"/>
+<image src="https://cdn.pixabay.com/photo/2023/01/08/14/07/street-7705265_1280.jpg" mode="widthFix"/>
+</view>
+
+
+
+
+
+
+
+

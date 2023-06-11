@@ -1,0 +1,54 @@
+<view class="guanyu">
+  <view class="contact bdbt">
+    <view class="title">沧州市本地宝介绍</view>
+    <view class="col">
+      <text class="ct" style="color:#8a8a8a;">
+      本地宝致力于打造完善的社会信用体系，降低社会沟通和交易成本，促进中国和谐社会的发展和进步。完善的社会信用体系建立是一个不断积累的过程，本地宝会按求真、求善、求美三个阶段来不断完善中国社会信用体系的建设，互联网的发展和迅速普及为本地宝加快完善中国社会信用体系建设奠定了良好的基础平台。
+      </text>
+    </view>
+  </view>
+  <view style='height:20rpx; background:#f5f5f5'></view>
+  <view class="contact bdbt">
+    <view class="title">联系我们</view>
+    <view class="col">
+      <text class="lt">公司名称：</text>
+      <text class="ct" style="color:#8a8a8a;">沧州本地宝</text>
+    </view> 
+    
+    <view class="col">
+      <text class="lt">地址：</text>
+      <text class="ct" style="color:#8a8a8a;">河北省沧州市</text>
+    </view>
+    <view class="col">
+      <text class="lt">联系人：</text>
+      <text class="ct" style="color:#8a8a8a;">王先生</text>
+    </view>
+    <view class="col">
+      <text class="lt">电话：</text>
+      <text class="ct" style="color:#8a8a8a;">15633223528</text>
+    </view>
+
+    <!-- <view class="col">
+      <text class="lt">微信：</text>
+      <text class="ct">{{datas.mobile}}</text>
+    </view> -->
+
+  </view>
+  <view class="weizi bdbt">
+    <view class="title">交通信息</view>
+    <view class="content" style="color:#8a8a8a;">107路，106路，201路</view>
+  </view>
+  <view class="map">
+    <view class="title">地图位置</view>
+    <view class="ditu">
+      <map id="map" longitude="116.83" latitude="38.33" scale="10" bindregionchange="regionchange" show-location style="width: 100%; height: 400rpx;"></map>
+    </view>
+    <view style='height:20rpx; background:#fff'></view>
+  </view>
+
+  <view class="jszc">技术支持：河北东方学院</view>
+
+
+</view>
+<!-- 在wxml中的一个按钮，点击后跳转至logs日志页面 -->
+<button bindtap="gotoLogs">日志</button>

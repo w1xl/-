@@ -1,0 +1,15 @@
+/* pages/text/text.wxss */
+image{
+  border: 1px solid red;
+  margin-left: 24px;
+  
+}
+button{
+  margin-right: 10px;
+  margin-bottom: 1px;
+  margin-left: 24px;
+  
+}
+view{
+  margin-left: 13px;
+}

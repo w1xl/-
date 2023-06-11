@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/contact/index",
+    "pages/message/message",
+    "pages/text/text",
+    "pages/index/index",   
+    "pages/logs/logs",
+    "pages/shoplist/shoplist"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "大港",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#efefef"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#ff0000",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/image/tabs/home.jpg",
+      "selectedIconPath": "/image/tabs/home-active.jpg"
+      
+      },{
+        "pagePath":"pages/message/message",
+        "text":"消息",
+        "iconPath": "/image/tabs/message.jpg",
+      "selectedIconPath": "/image/tabs/message-active.jpg"
+
+      },
+      {
+        "pagePath": "pages/contact/index",
+        "text":"联系我们",
+        "iconPath": "/image/tabs/contact.jpg",
+      "selectedIconPath": "/image/tabs/contact-active.jpg"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
+
